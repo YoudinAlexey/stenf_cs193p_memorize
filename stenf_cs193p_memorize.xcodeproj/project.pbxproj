@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D97CCFB62DC7B41C00BE3838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97CCFA02DC7B41A00BE3838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97CCFA72DC7B41B00BE3838;
+			remoteInfo = stenf_cs193p_memorize;
+		};
+		D97CCFC02DC7B41C00BE3838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97CCFA02DC7B41A00BE3838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97CCFA72DC7B41B00BE3838;
+			remoteInfo = stenf_cs193p_memorize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D97CCFA82DC7B41B00BE3838 /* stenf_cs193p_memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stenf_cs193p_memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97CCFB52DC7B41C00BE3838 /* stenf_cs193p_memorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stenf_cs193p_memorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97CCFBF2DC7B41C00BE3838 /* stenf_cs193p_memorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stenf_cs193p_memorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D97CCFAA2DC7B41B00BE3838 /* stenf_cs193p_memorize */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = stenf_cs193p_memorize;
+			sourceTree = "<group>";
+		};
+		D97CCFB82DC7B41C00BE3838 /* stenf_cs193p_memorizeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = stenf_cs193p_memorizeTests;
+			sourceTree = "<group>";
+		};
+		D97CCFC22DC7B41C00BE3838 /* stenf_cs193p_memorizeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = stenf_cs193p_memorizeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D97CCFA52DC7B41B00BE3838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97CCFB22DC7B41C00BE3838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97CCFBC2DC7B41C00BE3838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D97CCF9F2DC7B41A00BE3838 = {
+			isa = PBXGroup;
+			children = (
+				D97CCFAA2DC7B41B00BE3838 /* stenf_cs193p_memorize */,
+				D97CCFB82DC7B41C00BE3838 /* stenf_cs193p_memorizeTests */,
+				D97CCFC22DC7B41C00BE3838 /* stenf_cs193p_memorizeUITests */,
+				D97CCFA92DC7B41B00BE3838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D97CCFA92DC7B41B00BE3838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97CCFA82DC7B41B00BE3838 /* stenf_cs193p_memorize.app */,
+				D97CCFB52DC7B41C00BE3838 /* stenf_cs193p_memorizeTests.xctest */,
+				D97CCFBF2DC7B41C00BE3838 /* stenf_cs193p_memorizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D97CCFA72DC7B41B00BE3838 /* stenf_cs193p_memorize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97CCFC92DC7B41C00BE3838 /* Build configuration list for PBXNativeTarget "stenf_cs193p_memorize" */;
+			buildPhases = (
+				D97CCFA42DC7B41B00BE3838 /* Sources */,
+				D97CCFA52DC7B41B00BE3838 /* Frameworks */,
+				D97CCFA62DC7B41B00BE3838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D97CCFAA2DC7B41B00BE3838 /* stenf_cs193p_memorize */,
+			);
+			name = stenf_cs193p_memorize;
+			packageProductDependencies = (
+			);
+			productName = stenf_cs193p_memorize;
+			productReference = D97CCFA82DC7B41B00BE3838 /* stenf_cs193p_memorize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D97CCFB42DC7B41C00BE3838 /* stenf_cs193p_memorizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97CCFCC2DC7B41C00BE3838 /* Build configuration list for PBXNativeTarget "stenf_cs193p_memorizeTests" */;
+			buildPhases = (
+				D97CCFB12DC7B41C00BE3838 /* Sources */,
+				D97CCFB22DC7B41C00BE3838 /* Frameworks */,
+				D97CCFB32DC7B41C00BE3838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97CCFB72DC7B41C00BE3838 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D97CCFB82DC7B41C00BE3838 /* stenf_cs193p_memorizeTests */,
+			);
+			name = stenf_cs193p_memorizeTests;
+			packageProductDependencies = (
+			);
+			productName = stenf_cs193p_memorizeTests;
+			productReference = D97CCFB52DC7B41C00BE3838 /* stenf_cs193p_memorizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D97CCFBE2DC7B41C00BE3838 /* stenf_cs193p_memorizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97CCFCF2DC7B41C00BE3838 /* Build configuration list for PBXNativeTarget "stenf_cs193p_memorizeUITests" */;
+			buildPhases = (
+				D97CCFBB2DC7B41C00BE3838 /* Sources */,
+				D97CCFBC2DC7B41C00BE3838 /* Frameworks */,
+				D97CCFBD2DC7B41C00BE3838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97CCFC12DC7B41C00BE3838 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D97CCFC22DC7B41C00BE3838 /* stenf_cs193p_memorizeUITests */,
+			);
+			name = stenf_cs193p_memorizeUITests;
+			packageProductDependencies = (
+			);
+			productName = stenf_cs193p_memorizeUITests;
+			productReference = D97CCFBF2DC7B41C00BE3838 /* stenf_cs193p_memorizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D97CCFA02DC7B41A00BE3838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D97CCFA72DC7B41B00BE3838 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					D97CCFB42DC7B41C00BE3838 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D97CCFA72DC7B41B00BE3838;
+					};
+					D97CCFBE2DC7B41C00BE3838 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D97CCFA72DC7B41B00BE3838;
+					};
+				};
+			};
+			buildConfigurationList = D97CCFA32DC7B41A00BE3838 /* Build configuration list for PBXProject "stenf_cs193p_memorize" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D97CCF9F2DC7B41A00BE3838;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D97CCFA92DC7B41B00BE3838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D97CCFA72DC7B41B00BE3838 /* stenf_cs193p_memorize */,
+				D97CCFB42DC7B41C00BE3838 /* stenf_cs193p_memorizeTests */,
+				D97CCFBE2DC7B41C00BE3838 /* stenf_cs193p_memorizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D97CCFA62DC7B41B00BE3838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97CCFB32DC7B41C00BE3838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97CCFBD2DC7B41C00BE3838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D97CCFA42DC7B41B00BE3838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97CCFB12DC7B41C00BE3838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97CCFBB2DC7B41C00BE3838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D97CCFB72DC7B41C00BE3838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97CCFA72DC7B41B00BE3838 /* stenf_cs193p_memorize */;
+			targetProxy = D97CCFB62DC7B41C00BE3838 /* PBXContainerItemProxy */;
+		};
+		D97CCFC12DC7B41C00BE3838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97CCFA72DC7B41B00BE3838 /* stenf_cs193p_memorize */;
+			targetProxy = D97CCFC02DC7B41C00BE3838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D97CCFC72DC7B41C00BE3838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = J84ZR6B9XW;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D97CCFC82DC7B41C00BE3838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J84ZR6B9XW;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D97CCFCA2DC7B41C00BE3838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J84ZR6B9XW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.yudin.dev.stenf-cs193p-memorize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D97CCFCB2DC7B41C00BE3838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J84ZR6B9XW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.yudin.dev.stenf-cs193p-memorize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D97CCFCD2DC7B41C00BE3838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J84ZR6B9XW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.yudin.dev.stenf-cs193p-memorizeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stenf_cs193p_memorize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stenf_cs193p_memorize";
+			};
+			name = Debug;
+		};
+		D97CCFCE2DC7B41C00BE3838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J84ZR6B9XW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.yudin.dev.stenf-cs193p-memorizeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stenf_cs193p_memorize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stenf_cs193p_memorize";
+			};
+			name = Release;
+		};
+		D97CCFD02DC7B41C00BE3838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J84ZR6B9XW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.yudin.dev.stenf-cs193p-memorizeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = stenf_cs193p_memorize;
+			};
+			name = Debug;
+		};
+		D97CCFD12DC7B41C00BE3838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J84ZR6B9XW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.yudin.dev.stenf-cs193p-memorizeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = stenf_cs193p_memorize;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D97CCFA32DC7B41A00BE3838 /* Build configuration list for PBXProject "stenf_cs193p_memorize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97CCFC72DC7B41C00BE3838 /* Debug */,
+				D97CCFC82DC7B41C00BE3838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97CCFC92DC7B41C00BE3838 /* Build configuration list for PBXNativeTarget "stenf_cs193p_memorize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97CCFCA2DC7B41C00BE3838 /* Debug */,
+				D97CCFCB2DC7B41C00BE3838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97CCFCC2DC7B41C00BE3838 /* Build configuration list for PBXNativeTarget "stenf_cs193p_memorizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97CCFCD2DC7B41C00BE3838 /* Debug */,
+				D97CCFCE2DC7B41C00BE3838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97CCFCF2DC7B41C00BE3838 /* Build configuration list for PBXNativeTarget "stenf_cs193p_memorizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97CCFD02DC7B41C00BE3838 /* Debug */,
+				D97CCFD12DC7B41C00BE3838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D97CCFA02DC7B41A00BE3838 /* Project object */;
+}
